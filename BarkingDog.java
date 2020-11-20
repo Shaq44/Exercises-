@@ -1,4 +1,5 @@
  public class BarkingDog {
+//   This is just experimental 
 
 public static boolean shouldWakeUp(boolean barking, int hourOfDay){
 
