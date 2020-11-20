@@ -1,16 +1,16 @@
- public class BarkingDog {
+ public class CatsMeow {
 //   This is just experimental 
 
-public static boolean shouldWakeUp(boolean barking, int hourOfDay){
+public static boolean shouldWakeUp(boolean Meow, int hourOfDay){
 
-        if (barking && hourOfDay < 0){
+        if (Meow && hourOfDay < 0){
             System.out.println("False");
 
-        } else if (barking && hourOfDay > 23) {
+        } else if (Meow && hourOfDay > 23) {
             System.out.println("False");
-        } else if ( barking && hourOfDay >= 0){
+        } else if ( Meow && hourOfDay >= 0){
             System.out.println("true");
-        } else if (barking && hourOfDay >= 23){
+        } else if (Meow && hourOfDay >= 23){
             System.out.println("True");
 
         }
